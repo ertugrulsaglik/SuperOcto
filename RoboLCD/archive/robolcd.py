@@ -6,7 +6,7 @@ from kivy.core.window import Window
 from kivy.uix.button import Button
 from mainscreen import MainScreen, MainScreenTabbedPanel, FilesTab, PrinterStatusTab, SettingsTab
 
-Window.size = (800, 480)
+Window.size = (480, 320)
 
 
 class RoboScreenManager(ScreenManager):
